@@ -1,0 +1,15 @@
+# Ignore environment files
+.env
+
+# Ignore Terraform state and key files
+infra/terraform/terraform-sa-key.json
+infra/terraform/.terraform/
+infra/terraform/.terraform.lock.hcl
+
+# Ignore Go build and dependency files
+*.exe
+*.out
+*.test
+
+# Ignore temporary files
+tmp/
